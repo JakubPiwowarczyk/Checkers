@@ -1,1 +1,2 @@
-A multiplayer checkers game using Java RMI (Remote Method Invocation) and JavaFX for the user interface. This project allows two [clients](src/main/java/Client) to connect to a [central server](src/main/java/Server), which manages game logic and communication between players.
+# Checkers
+A multiplayer checkers game using Java RMI and JavaFX. The [client](src/main/java/Client) handles player queues, board display, and move highlighting when hovering over a piece. Each player can select their preferred color before the game starts. The [server](src/main/java/Server) manages communication between two clients and handles game logic. The game begins once two clients with different preferred colors are connected to the server.
